@@ -10,7 +10,7 @@ Aplikacja będzie działała w taki sposób, że użytkowniok podaje 2 liczby i 
 
 Inerakcjia z użytkownikiem w aplikacji będzie działa w następujący spoób:
 
-- Użytkownik podaje pierwszą i drugą liczbę
+- Użytkownik poda pierwszą i drugą liczbę;
   
 - Następnie użytkownik będzie wybierał opcję, czy chce obliczyć swe 2 liczby za pomocą:
 
