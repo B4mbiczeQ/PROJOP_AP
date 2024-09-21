@@ -8,11 +8,11 @@ Aplikacja będzie działała w taki sposób, że użytkowniok podaje 2 liczby i 
 
 # Na czym polega interakcja z użytkownikiem?
 
-Inerakcjia z użytkownikiem w aplikacji działa w następujący spoób:
+Inerakcjia z użytkownikiem w aplikacji będzie działa w następujący spoób:
 
 - Użytkownik podaje pierwszą i drugą liczbę
   
-- Następnie użytkownik wybiera opcję, czy chce obliczyć swe 2 liczby za pomocą:
+- Następnie użytkownik będzie wybierał opcję, czy chce obliczyć swe 2 liczby za pomocą:
 
 1.  Sumy;
 
