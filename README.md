@@ -22,4 +22,4 @@
 
 **4.** _Ilorazu_.
 
-# Więcej dokumentacji można znaleść w "releases".
+**Więcej dokumentacji można znaleść przy _każdej wersji aplikacji_ (releases).**
