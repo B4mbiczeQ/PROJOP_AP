@@ -21,3 +21,5 @@
 **3.** _Iloczynu_;
 
 **4.** _Ilorazu_.
+
+# Więcej dokumentacji można znaleść w "releases".
