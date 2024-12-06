@@ -1,0 +1,29 @@
+.content{
+
+    border: 1px solid black;
+    padding: 15px;
+    align-self: center;
+    width: max-content;
+    height: max-content;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 35vh;
+    border-radius: 23px;
+    
+}
+
+.autowidth{
+
+    width: 20vh;
+    height: 3vh;
+    min-height: 3vh;
+    text-align: center;
+    border-radius: 100px;
+
+}
+
+#Wynik{
+
+    width: 800px;
+
+}
