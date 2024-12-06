@@ -4,16 +4,21 @@
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <title>Kalkulator</title>
+                <link href="arkusz1.css" rel="stylesheet">
             </head>
         <body>
 
             <script src="Skrypt1.js"></script>
 
+            <div class="content">
+
                 <form>
 
-                    <input type="number" id="PierwszaLiczba" value="0"> <br>  
+                    <input type="number" id="PierwszaLiczba" value="0" class="autowidth"> 
+                    
+                        &nbsp; 
 
-                        <select id="Wybór">
+                        <select id="Wybór" class="autowidth">
 
                             <option value="+">+</option>
 
@@ -23,14 +28,19 @@
 
                             <option value="/">/</option>
 
-                        </select><br>    
+                        </select> 
+                        
+                        &nbsp;     
 
-                    <input type="number" id="DrugaLiczba" value="0"> <br>  
+                    <input type="number" id="DrugaLiczba" value="0" class="autowidth"> <br><br> 
 
-                    <input type="button" onclick="Calculate()">=</button> <br>
+                    <button type="button" onclick="Calculate()" class="autowidth">=</button> <br><br> 
 
-                    <input type="text" readonly id="Wynik">   
+                    <input type="text" readonly id="Wynik" class="autowidth">   
 
                 </form>
+
+            </div>
+
         </body>
 </html>
