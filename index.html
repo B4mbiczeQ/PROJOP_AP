@@ -1,46 +1,83 @@
     <!DOCTYPE html>
+    
         <html lang="PL-pl">
+
             <head>
+
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <title>Kalkulator</title>
                 <link href="arkusz1.css" rel="stylesheet">
+
             </head>
+            
         <body>
 
             <script src="Skrypt1.js"></script>
 
-            <div class="content">
+                <div class="Calculator">
 
-                <form>
+                    <div class="Result">
 
-                    <input type="number" id="PierwszaLiczba" value="0" class="autowidth"> 
+                    <form><input type="text" id="Item_cont" placeholder="0" readonly></form>
                     
-                        &nbsp; 
+                    </div>
 
-                        <select id="Wybór" class="autowidth">
+                    <div class="content">
 
-                            <option value="+">+</option>
+                        <div class="b_nums">
 
-                            <option value="-">-</option>
+                            <button onclick="numberclick('1')">1</button>
+                            <button onclick="numberclick('2')">2</button>
+                            <button onclick="numberclick('3')">3</button>
 
-                            <option value="*">*</option>
+                            <br><br>
 
-                            <option value="/">/</option>
+                            <button onclick="numberclick('4')">4</button>
+                            <button onclick="numberclick('5')">5</button>
+                            <button onclick="numberclick('6')">6</button>
 
-                        </select> 
-                        
-                        &nbsp;     
+                            <br><br>
 
-                    <input type="number" id="DrugaLiczba" value="0" class="autowidth"> <br><br> 
+                            <button onclick="numberclick('7')">7</button>
+                            <button onclick="numberclick('8')">8</button>
+                            <button onclick="numberclick('9')">9</button>
 
-                    <button type="button" onclick="Calculate()" class="autowidth">=</button> <br><br> 
+                            <br><br>
 
-                    <input type="text" readonly id="Wynik" class="autowidth">   
+                            <button onclick="opclick('.')">.</button>
+                            <button onclick="numberclick('0')">0</button>
+                            <button onclick="showAnswer()">=</button>
 
-                </form>
+                        </div>
 
-            </div>
+                        &nbsp; &nbsp; 
+
+                        <div class="b_ops">
+
+                            <button onclick="opclick('*')">*</button>
+
+                            <br><br>
+
+                            <button onclick="opclick('/')">/</button>
+
+                            <br><br>
+
+                            <button onclick="opclick('+')">+</button>
+
+                            <br><br>
+
+                            <button onclick="opclick('-')">-</button>
+
+                            <br><br>
+
+                            <button onclick="clearCalc()">C</button>
+
+                        </div>
+
+                    </div>
+
+                </div>
 
         </body>
 </html>

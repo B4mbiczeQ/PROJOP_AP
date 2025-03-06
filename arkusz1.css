@@ -1,15 +1,52 @@
-.content{
+.Calculator,.content,button,input[type=text]{
 
-    border: 1px solid black;
+    border-radius: 23px;
+
+}
+
+.Calculator{
+
+    border: 1.5px solid black;
     padding: 15px;
     align-self: center;
     width: max-content;
     height: max-content;
     text-align: center;
     margin: 0 auto;
-    margin-top: 35vh;
-    border-radius: 23px;
+    margin-top: 25vh;
+    display: grid;
     
+}
+
+.content{
+
+    padding: 15px;
+    align-self: center;
+    width: max-content;
+    height: max-content;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    
+}
+
+button{
+
+    width: 7vh;
+    height: 7vh;
+    margin-right: 10px;
+    border: 1.5px solid black;
+    font-size: xx-large;
+}
+
+#Item_cont{
+
+    text-align: center;
+    height: 8vh;
+    width: 30vh;
+    border: 1.5px solid black;
+    font-size: xx-large;
+
 }
 
 .autowidth{
@@ -22,8 +59,17 @@
 
 }
 
-#Wynik{
+.Result{
 
-    width: 800px;
+    width: auto;
+    height: max-content;
+    float: left;
+    margin: 20px; 
+
+}
+
+.b_ops{
+
+    float: right;
 
 }
