@@ -46,7 +46,7 @@
 
         if(operation.length > 0){
 
-            operation = eval(operation)
+            operation = eval(operation).toFixed(2)
             updateResult(operation)
 
         }
