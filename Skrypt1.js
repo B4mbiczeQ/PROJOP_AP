@@ -3,19 +3,13 @@
     let rotation1 = 0
     const maxOperationLength = 17
 
-    function RotateBlock(){
-
-        rotation1 += 90
-        document.getElementById("Calculator").style.transform = `rotate(${rotation1}deg)` 
-
-    }
-
     function RandomRotateBlock(){
 
         let toRotate = Math.floor((Math.random() * 10) + 1)
         if(toRotate == 10){
 
-            RotateBlock()
+            rotation1 += 90
+            document.getElementById("Calculator").style.transform = `rotate(${rotation1}deg)`
 
         }
 
@@ -23,17 +17,13 @@
 
     function numberclick(){
 
-        if(!operated){
+        if(!operated && operation.length < maxOperationLength){
 
             let number = Math.floor((Math.random() * 10))
 
-            if( operation.length < maxOperationLength ){
-
-                operation += number
-                updateResult(operation)
-                RandomRotateBlock()
-
-            } 
+            operation += number
+            updateResult(operation)
+            RandomRotateBlock()
 
         }
         
@@ -41,19 +31,11 @@
 
     function opclick(operator){
 
-        if(!operated){
+        if(!operated && operation.length < maxOperationLength && operation[operation.length - 1] != operator){  
 
-            if( operation.length < maxOperationLength ){
-
-                if(operation.lastIndexOf != operator){
-
-                    operation += operator
-                    updateResult(operation)
-                    RandomRotateBlock()
-
-                }
-
-            }
+            operation += operator
+            updateResult(operation)
+            RandomRotateBlock()
 
         }
         
