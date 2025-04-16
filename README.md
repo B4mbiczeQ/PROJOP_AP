@@ -1,6 +1,6 @@
 # Do czego służy aplikacja?
 
-**Aplikacja** służy do obliczania _**niewiadomej ilości liczb** za pomocą **sumy, różnicy, iloczynu i ilorazu**_.
+**Aplikacja** służy do obliczania _**niewiadomej ilości liczb** za pomocą **sumy, różnicy, iloczynu i ilorazu**_ w **kreatywnie _denerwujący sposób_**.
 
 # Jak działa aplikacja?
 
@@ -9,6 +9,8 @@
 _Użytkownik **ma możliwość podania**_ **ułamka dziesiętnego** _dla **swojej liczby**_.
 
 **Po wczytaniu** _wszystkich liczb i operacji od **użytkownika**_, **wciska przycisk** _"="_, żeby **podał mu wynik _jak na tacy_**.
+
+**Kalkulator**, _natomiast_ **jest _specjalnie denerwujący_** dla **użytkownika** i **nie potrafi poprawnie _wykonać swojego polecenia_**.
 
 # Na czym polega interakcja z użytkownikiem?
 
@@ -28,6 +30,6 @@ _Użytkownik **ma możliwość podania**_ **ułamka dziesiętnego** _dla **swoje
 
 **4.** _Ilorazu_;
 
-- _Na sam koniec_, **użytkownik _wciska przycisk_** _"="_, **który obliczy** _jego równanie_.
+- _Na sam koniec_, **użytkownik _wciska przycisk_** _"="_, **który _zazwyczaj oblicza_** _jego równanie_.
 
 **Więcej dokumentacji można znaleść przy _każdej wersji aplikacji_ (releases).**
