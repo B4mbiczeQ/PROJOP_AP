@@ -10,7 +10,7 @@ _Użytkownik **ma możliwość podania**_ **ułamka dziesiętnego** _dla **swoje
 
 **Po wczytaniu** _wszystkich liczb i operacji od **użytkownika**_, **wciska przycisk** _"="_, żeby **podał mu wynik _jak na tacy_**.
 
-**Kalkulator**, _natomiast_ **jest _specjalnie denerwujący_** dla **użytkownika** i **nie potrafi poprawnie _wykonać swojego polecenia_**.
+**Kalkulator**, _natomiast_ **jest _specjalnie denerwujący_** dla **użytkownika** i **nie potrafi (zazwyczaj) poprawnie _wykonać swojego polecenia_**.
 
 # Na czym polega interakcja z użytkownikiem?
 
