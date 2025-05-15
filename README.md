@@ -1,6 +1,6 @@
 # Jak zainstalować i włączyć aplikację?
 
-**Jeżeli chcesz odpalić aplikację**, _należy_:
+**Jeżeli chcesz _włączyć i odpalić_ aplikację**, _należy_:
 - **Pobrać jakąkolwiek wersję** _(zalecam najnowszą)_, **klikając w zakładkę "releases" po prawej stronie github'a** i **klikając w link "Source code (zip)"**, _albo_ **kliknąć w zielony przycisk "<> Code"**, _a następnie_ **na samym dole okienka, które wyskoczyło po kliknięciu przycisku**, _kliknąć w_ **"Download ZIP"**.
 - Po **pobraniu aplikacji w zipie, czy win-rar'rze**, _należy najpierw_ **wypakować kalkulator** i **kliknąć na stronę internetową o nazwie _"index"_**. 
 
