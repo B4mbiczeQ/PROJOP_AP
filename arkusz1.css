@@ -1,19 +1,29 @@
-.Calculator,.content,button,input[type=text]{
+body{
 
-    border-radius: 23px;
+    background-color: rgb(70, 70, 70);
+
+}
+
+.Calculator,button{
+
+    border-radius: 10px;
+    box-shadow: 2px 3px;
 
 }
 
 .Calculator{
 
-    border: 1.5px solid black;
+    border: 3px solid rgb(22, 22, 22);
+    background-color: rgb(44, 44, 44);
+    box-shadow: 2px 3px rgb(20, 20, 20);
+    border-radius: 0px;
     padding: 15px;
     align-self: center;
     width: max-content;
     height: max-content;
     text-align: center;
     margin: 0 auto;
-    margin-top: 25vh;
+    margin-top: 18vh;
     display: grid;
     
 }
@@ -27,26 +37,45 @@
     text-align: center;
     margin: 0 auto;
     display: flex;
-    
+
 }
 
 button{
 
+    border: 3px solid rgb(22, 22, 22);
+    background-color: rgb(27, 27, 27);
+    color: rgb(27, 112, 182);
     width: 7vh;
     height: 7vh;
     margin-right: 10px;
-    border: 1.5px solid black;
-    font-size: xx-large;
-    
+    text-align: center;
+    font-size: 4vh;
+
+}
+
+#OperBut{
+
+    color: rgb(170, 60, 60);
+
+}
+
+#OperBack{
+
+    color: rgb(170, 60, 60);
+    width: 24vh;
+
 }
 
 #Item_cont{
 
+    border: 4px solid rgb(22, 22, 22);
+    background-color: rgb(206, 206, 206);
+    color: rgb(0, 0, 0);
     text-align: center;
-    height: 8vh;
-    width: 30vh;
-    border: 1.5px solid black;
+    height: 9vh;
+    width: 33vh;
     font-size: xx-large;
+    box-shadow: 2px 3px rgb(39, 39, 39);
 
 }
 

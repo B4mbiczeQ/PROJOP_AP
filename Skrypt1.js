@@ -15,15 +15,42 @@
 
     }
 
+    function RandomMarginBlock(){
+
+        let toChance = Math.floor((Math.random() * 10) + 1)
+        if(toChance == 10){
+
+            let buttons = document.getElementsByClassName("Button")
+
+            let widthMultiplaier = Math.floor((Math.random() * 20) + 1)
+            let newWidth = 7 * widthMultiplaier / 4
+
+            let rotICMultiplaier = Math.floor((Math.random() * 361))
+            document.getElementById("Item_cont").style.transform = `rotate(${rotICMultiplaier}deg)`
+
+            for(i = 0; i < buttons.length; i++){
+
+                buttons[i].style.width = `${newWidth}vh`
+                
+                let rotMultiplaier = Math.floor((Math.random() * 361))
+                buttons[i].style.transform = `rotate(${rotMultiplaier}deg)`
+
+            }
+
+        }
+
+    }
+
     function numberclick(){
 
         if(!operated && operation.length < maxOperationLength){
 
             let number = Math.floor((Math.random() * 10))
-
             operation += number
+
             updateResult(operation)
             RandomRotateBlock()
+            RandomMarginBlock()
 
         }
         
@@ -34,11 +61,27 @@
         if(!operated && operation.length < maxOperationLength && operation[operation.length - 1] != operator){  
 
             operation += operator
+
             updateResult(operation)
             RandomRotateBlock()
+            RandomMarginBlock()
 
         }
         
+    }
+
+    function DeleteLastDigit(){
+
+        if(operation.length > 0){
+
+            operation = operation.slice(0, (operation.length - 1))
+
+            updateResult(operation)
+            RandomRotateBlock()
+            RandomMarginBlock()
+
+        }
+
     }
 
     function clearCalc(){
@@ -86,7 +129,7 @@
 
                 if(operated == true) operated = false
                 operation = ""
-            
+                
             }
 
             updateResult(operation)
@@ -108,6 +151,7 @@
                 "I don't know",
                 "Google It",
                 "Ask Chat-GPT",
+                "Idk ask mr. Konko",
                 "Guess",
                 "Dude it's easy",
                 "Just do it yourself",
